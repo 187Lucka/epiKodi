@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-position: center center;
+  color: white;
+  margin: 0;
+}
+
+.banner-content {
+  position: absolute;
+  top: 20%;
+  left: 20px;
+  right: 20px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.banner-buttons {
+  margin-top: 20px;
+}
+
+.banner-button {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.banner-description {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  width: 45%;
+}
+
+.banner-fadeBottom {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+  width: 100%;
+}
+  

@@ -1,0 +1,56 @@
+
+.player-page {
+  color: white;
+  padding-top: 80px;
+  position: relative;
+}
+
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+video {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.control-button, .quality-select {
+  background-color: #e50914;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.control-button:hover, .quality-select select:hover {
+  background-color: #f40612;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #e50914;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #f40612;
+}
+  

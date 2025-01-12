@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden; /* Empêche le débordement horizontal */
+}
+
+.rows {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacement entre les lignes */
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
